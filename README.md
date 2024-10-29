@@ -1,9 +1,3 @@
-# Importing necessary libraries
-import os
-
-# Define the content of the README file
-readme_content = """# **Predictive Modeling with Linear Regression on Car Price Prediction**
-
 ### **Project Overview**
 - **Name:** Prabhas Teja Penugonda  
 - **Company:** CODTECH IT Solutions  
@@ -39,25 +33,20 @@ The main objective of this project is to:
 ---
 
 ## **Visualizations**
-1. **Fuel Type vs. Selling Price:**
-   - A bar plot showing the relationship between fuel type and the selling price of cars.
-   ![Fuel Type vs. Selling Price](outputs/fuel_type_vs_selling_price.png)
+The project includes the following visualizations that illustrate key relationships and insights:
 
-2. **Seller Type vs. Selling Price:**
-   - A bar plot illustrating how the seller type impacts the selling price of cars.
-   ![Seller Type vs. Selling Price](outputs/seller_type_vs_selling_price.png)
-
-3. **Transmission vs. Selling Price:**
-   - A bar plot showing the influence of transmission type on selling prices.
-   ![Transmission vs. Selling Price](outputs/transmission_vs_selling_price.png)
+1. **Fuel Type, Seller Type, and Transmission vs. Selling Price**  
+   - **Description:** This visualization combines the effects of different fuel types, seller types, and transmission types on the selling price of cars, providing a comprehensive view of how these factors influence pricing.
+   
+   ![Fuel Type, Seller Type, and Transmission vs. Selling Price](outputs/fuel_seller_transmission_vs_selling_price.png)
 
 4. **Correlation Between Numeric Columns:**
    - A heatmap displaying correlations between numeric features in the dataset.
    ![Correlation Heatmap](outputs/correlation_heatmap.png)
 
 5. **Correlation Between Selling Price and Present Price:**
-   - A scatter plot showing the relationship between actual selling prices and predicted prices.
-   ![Actual vs. Predicted Price](outputs/actual_vs_predicted_price.png)
+   - A scatter plot showing the relationship between actual selling prices and present prices.
+   ![Actual vs. Predicted Price](outputs/actual_vs_present_price.png)
 
 6. **Actual Price vs. Predicted Price:**
    - A comparison plot illustrating the accuracy of the model predictions against actual selling prices.
@@ -78,5 +67,5 @@ The main objective of this project is to:
 
 1. **Clone the Repository:**
    ```bash
-   git clone <https://github.com/prabhasteja007/CODTECH-Task1>
+   git clone <https://github.com/prabhasteja007/CODTECH-Task2>
    cd your-repository-name
